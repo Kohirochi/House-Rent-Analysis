@@ -1,14 +1,13 @@
 # CHAI LI QI
-# TP061156
 
 # Data Import
 # Import data from csv file
-data = read.csv( "D:\\APU\\Degree\\Year 2\\Sem 1\\PFDA\\Assignment\\House_Rent_Dataset.csv", header=TRUE)
+data = read.csv( "House_Rent_Dataset.csv", header=TRUE)
 View(data)
 
 # Save a copy of data
 backup_data = data
-write.csv(backup_data,"D:\\APU\\Degree\\Year 2\\Sem 1\\PFDA\\Assignment\\House_Rent_Dataset_Backup.csv", row.names = FALSE)
+write.csv(backup_data,"House_Rent_Dataset_Backup.csv", row.names = FALSE)
 
 # Data exploration
 # Libraries used
